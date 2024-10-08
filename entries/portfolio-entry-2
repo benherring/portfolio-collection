@@ -35,3 +35,25 @@
 </main>
 </body>
 </html>
+.container {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "../images/psy1-1.png"
+    "../images/psy1-1.png"
+    "."
+    "../images/psy1-1.png"
+    "../images/psy1-1.png"
+    "../images/psy1-1.png"
+    "../images/psy1-1.png"
+    "../images/psy1-1.png"
+    "../images/psy1-1.png"
+    "../images/psy1-1.png"
+    "../images/psy1-1.png"
+    "../images/psy1-1.png"
+    "../images/psy1-1.png"
+    "../images/psy1-1.png"
+    "../images/psy1-1.png";
+}
